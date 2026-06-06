@@ -1,0 +1,11 @@
+def vowel():
+
+  word = "renuka"
+
+  for i in word:
+     if i in "aeiou":
+       yield i
+x = vowel()
+
+for i in x:
+     print(i)
